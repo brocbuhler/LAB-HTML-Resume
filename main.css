@@ -1,3 +1,47 @@
 body {
-background-color: black
+  background-color: skyblue
 }
+#Title {
+display: inline;
+text-align: center;
+}
+#jobs {
+display: flex;
+justify-content: space-around;
+padding: 0 300px;
+color: hotpink;
+text-shadow: 5px 5px 1px black;
+text-align: center;
+}
+#tony, #pub, #plan {
+text-decoration: wavy;
+}
+#date {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 300px;
+  text-decoration: underline;
+  text-align: center;
+}
+#desc {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 300px 0 300px;
+}
+#tonyp {
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+border: 1px dotted limegreen;
+width: 250px;
+}
+#plan9 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+border: 5px solid purple;
+width: 250px;
+}
+#pubm {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+border: 3px groove yellow;
+width: 250px;
